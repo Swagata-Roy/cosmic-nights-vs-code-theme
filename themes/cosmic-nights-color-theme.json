@@ -1,0 +1,113 @@
+{
+  "name": "Cosmic Nights",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0f172a",
+    "editor.foreground": "#e2e8f0",
+    "activityBar.background": "#1e293b",
+    "activityBar.foreground": "#94a3b8",
+    "activityBarBadge.background": "#8b5cf6",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#1e293b",
+    "sideBar.foreground": "#94a3b8",
+    "sideBarTitle.foreground": "#64748b",
+    "statusBar.background": "#1e293b",
+    "statusBar.foreground": "#94a3b8",
+    "titleBar.activeBackground": "#1e293b",
+    "titleBar.activeForeground": "#94a3b8",
+    "tab.activeBackground": "#0f172a",
+    "tab.inactiveBackground": "#1e293b",
+    "tab.activeForeground": "#f1f5f9",
+    "tab.inactiveForeground": "#64748b",
+    "editorGroupHeader.tabsBackground": "#1e293b",
+    "button.background": "#8b5cf6",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#7c3aed"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#64748b"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#10b981"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language", "constant.character", "constant.other", "keyword.other.unit"],
+      "settings": {
+        "foreground": "#f472b6"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier", "entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#20b7f8"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other", "variable.other.readwrite"],
+      "settings": {
+        "foreground": "#4fc8e0"
+      }
+    },
+    {
+      "scope": ["meta.property-name", "meta.object.key", "entity.other.attribute-name", "support.type.property-name.css", "support.type.property-name.scss", "support.type.property-name.less"],
+      "settings": {
+        "foreground": "#38bdf8"
+      }
+    },
+    {
+      "scope": ["variable.other.object"],
+      "settings": {
+        "foreground": "#a093cf"
+      }
+    },
+    {
+      "scope": ["variable.other.object.property"],
+      "settings": {
+        "foreground": "#f472b6"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    {
+      "scope": ["support.constant.property-value.css", "support.constant.color.w3c-standard-color-name.css", "constant.other.color.rgb-value.css", "support.constant.font-name.css", "support.constant.vendored.property-value.css"],
+      "settings": {
+        "foreground": "#10b981"
+      }
+    },
+    {
+      "scope": ["meta.property-value.css", "support.type.vendored.property-name.css", "support.type.property-name.media.css"],
+      "settings": {
+        "foreground": "#a78bfa"
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css", "entity.other.attribute-name.pseudo-class.css", "entity.other.attribute-name.pseudo-element.css"],
+      "settings": {
+        "foreground": "#60a5fa"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "meta.object-literal.key.tsx", "meta.object-literal.key.jsx"],
+      "settings": {
+        "foreground": "#8fd6f5"
+      }
+    }
+  ]
+}
