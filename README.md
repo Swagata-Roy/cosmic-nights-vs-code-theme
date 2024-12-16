@@ -39,3 +39,5 @@ JavaScript example screenshot:
 If you have any suggestions or feedback, please open an issue on the repository.
 
 Enjoy coding in the cosmic night! 🌌
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
