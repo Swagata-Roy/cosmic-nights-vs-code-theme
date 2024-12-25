@@ -22,7 +22,17 @@
     "editorGroupHeader.tabsBackground": "#1e293b",
     "button.background": "#8b5cf6",
     "button.foreground": "#ffffff",
-    "button.hoverBackground": "#7c3aed"
+    "button.hoverBackground": "#7c3aed",
+    
+    "editor.lineHighlightBackground": "#1e293b50",
+    "editor.selectionBackground": "#3e4e6e",
+    "editorCursor.foreground": "#8b5cf6",
+    "editorIndentGuide.background1": "#1e293b80",
+    "editorIndentGuide.activeBackground1": "#3e4e6e",
+    "list.hoverBackground": "#1e293b80",
+    "list.activeSelectionBackground": "#3e4e6e",
+    "scrollbarSlider.background": "#1e293b80",
+    "scrollbarSlider.hoverBackground": "#3e4e6e80"
   },
   "tokenColors": [
     {
@@ -107,6 +117,173 @@
       "scope": ["meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "meta.object-literal.key.tsx", "meta.object-literal.key.jsx"],
       "settings": {
         "foreground": "#8fd6f5"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.class.python",
+        "keyword.operator.logical.python",
+        "keyword.control.flow.python"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#20b7f8"
+      }
+    },
+    {
+      "scope": [
+        "meta.function-call.python",
+        "meta.function.python"
+      ],
+      "settings": {
+        "foreground": "#4fc8e0"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.function.python",
+        "variable.parameter.function.language.python",
+        "variable.parameter.function-call.python"
+      ],
+      "settings": {
+        "foreground": "#4fc8e0"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.python",
+        "variable.language.special.self.python",
+        "variable.parameter.definition.python"
+      ],
+      "settings": {
+        "foreground": "#4fc8e0"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.class.cs",
+        "entity.name.type.struct.cs",
+        "entity.name.type.enum.cs",
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.logical.cs",
+        "keyword.other.unsafe.cs",
+        "keyword.other.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.cpp",
+        "entity.name.type.class.cpp",
+        "storage.type.primitive.cpp",
+        "storage.type.built-in.primitive.cpp"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.specifier.cpp",
+        "keyword.operator.cpp",
+        "keyword.operator.logical.cpp"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.rust",
+        "entity.name.type.rust",
+        "entity.name.type.struct.rust"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.rust",
+        "keyword.other.rust",
+        "storage.modifier.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.rust",
+        "support.function.rust"
+      ],
+      "settings": {
+        "foreground": "#20b7f8"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.namespace.cpp",
+        "entity.name.scope-resolution.cpp",
+        "punctuation.separator.scope-resolution.cpp"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "support.type.stdstring.cpp",
+        "support.type.stl.cpp",
+        "support.type.posix-reserved.cpp"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.namespace.cpp",
+        "storage.type.template.cpp"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading",
+        "markup.bold",
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
       }
     }
   ]

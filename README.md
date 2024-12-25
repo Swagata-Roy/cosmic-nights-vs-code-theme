@@ -14,7 +14,7 @@ JavaScript example screenshot:
 
 - Modern and clean design
 - Dark theme optimized for long coding sessions
-- Beautiful syntax highlighting (HTML, CSS, JavaScript, TypeScript, JSON, etc.)
+- Beautiful syntax highlighting
 - Carefully chosen color palette
 
 ## Installation
