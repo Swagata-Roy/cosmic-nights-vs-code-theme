@@ -4,11 +4,11 @@ A beautiful dark theme for VS Code featuring cosmic vibes with dark blue, purple
 
 HTML example screenshot:
 
-![Cosmic Nights Theme](https://github.com/Swagata-Roy/cosmic-nights-vs-code-theme/blob/main/images/html_example.png)
+![Cosmic Nights Theme](https://raw.githubusercontent.com/Swagata-Roy/cosmic-nights-vs-code-theme/main/images/html_example.png)
 
 JavaScript example screenshot:
 
-![Cosmic Nights Theme](https://github.com/Swagata-Roy/cosmic-nights-vs-code-theme/blob/main/images/js_example.png)
+![Cosmic Nights Theme](https://raw.githubusercontent.com/Swagata-Roy/cosmic-nights-vs-code-theme/main/images/js_example.png)
 
 ## Features
 
