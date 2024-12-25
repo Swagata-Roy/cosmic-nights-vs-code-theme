@@ -32,7 +32,25 @@
     "list.hoverBackground": "#1e293b80",
     "list.activeSelectionBackground": "#3e4e6e",
     "scrollbarSlider.background": "#1e293b80",
-    "scrollbarSlider.hoverBackground": "#3e4e6e80"
+    "scrollbarSlider.hoverBackground": "#3e4e6e80",
+    
+    "editor.wordHighlightBackground": "#3e4e6e50",
+    "editor.wordHighlightStrongBackground": "#3e4e6e80",
+    "editorBracketMatch.background": "#3e4e6e50",
+    "editorBracketMatch.border": "#8b5cf6",
+    "editorError.foreground": "#ef4444",
+    "editorWarning.foreground": "#f59e0b",
+    "editorInfo.foreground": "#3b82f6",
+    "terminal.foreground": "#e2e8f0",
+    "terminal.background": "#0f172a",
+    "panel.background": "#1e293b"
+  },
+  "semanticTokenColors": {
+    "variable": "#4fc8e0",
+    "parameter": "#4fc8e0",
+    "property": "#f472b6",
+    "function": "#20b7f8",
+    "type": "#818cf8"
   },
   "tokenColors": [
     {
@@ -161,7 +179,8 @@
       "scope": [
         "variable.other.python",
         "variable.language.special.self.python",
-        "variable.parameter.definition.python"
+        "variable.parameter.definition.python",
+        "meta.generic-name.python"
       ],
       "settings": {
         "foreground": "#4fc8e0"
