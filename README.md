@@ -20,10 +20,10 @@ JavaScript example screenshot:
 ## Installation
 
 1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X or Cmd+Shift+X)
+2. Go to Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X`)
 3. Search for "Cosmic Nights Theme"
 4. Click Install
-5. Press Ctrl+K, Ctrl+T (or Cmd+K, Cmd+T on macOS) to open the theme selector
+5. Press `Ctrl+K`, `Ctrl+T` (or `Cmd+K`, `Cmd+T` on macOS) to open the theme selector
 6. Select "Cosmic Nights"
 
 Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Swagata-Roy.cosmic-nights).
