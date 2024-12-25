@@ -36,10 +36,6 @@ Alternatively, you can install it directly from the [VS Code Marketplace](https:
 - Emerald strings
 - Pink constants
 
-## Feedback
-
-If you have any suggestions or feedback, please open an issue on the repository.
-
 Enjoy coding in the cosmic night! 🌌
 
 ## License
