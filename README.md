@@ -19,12 +19,14 @@ JavaScript example screenshot:
 
 ## Installation
 
-- Download the repository as a ZIP file and extract its contents.
-- Launch VS Code and press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
-- In the Command Palette, type Install from VSIX and select the corresponding option.
-- Navigate to the extracted folder, select the cosmic-nights.vsix file, and click Install.
-- Go to `File > Preferences > Color Theme`
-- Select `Cosmic Nights`
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X or Cmd+Shift+X)
+3. Search for "Cosmic Nights Theme"
+4. Click Install
+5. Press Ctrl+K, Ctrl+T (or Cmd+K, Cmd+T on macOS) to open the theme selector
+6. Select "Cosmic Nights"
+
+Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Swagata-Roy.cosmic-nights).
 
 ## Colors
 
