@@ -128,13 +128,13 @@
     {
       "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css", "entity.other.attribute-name.pseudo-class.css", "entity.other.attribute-name.pseudo-element.css"],
       "settings": {
-        "foreground": "#60a5fa"
+        "foreground": "#8fd6f5"
       }
     },
     {
       "scope": ["meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "meta.object-literal.key.tsx", "meta.object-literal.key.jsx"],
       "settings": {
-        "foreground": "#8fd6f5"
+        "foreground": "#2383f8"
       }
     },
     {
