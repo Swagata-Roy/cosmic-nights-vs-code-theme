@@ -440,7 +440,7 @@
         "variable.other.cpp"
       ],
       "settings": {
-        "foreground": "#4fc8e0"
+        "foreground": "#92beff"
       }
     },
     {
@@ -516,19 +516,6 @@
       ],
       "settings": {
         "foreground": "#0ea5e9"
-      }
-    },
-    {
-      "name": "C++ Variables",
-      "scope": [
-        "variable.other.local.cpp",
-        "variable.other.readwrite.cpp",
-        "variable.other.cpp",
-        "variable.other.object.cpp",
-        "meta.loop.cpp variable"
-      ],
-      "settings": {
-        "foreground": "#e2f4f8"
       }
     },
     {
