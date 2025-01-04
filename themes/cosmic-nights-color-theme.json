@@ -70,7 +70,37 @@
     "commandCenter.activeForeground": "#f1f5f9",
     "commandCenter.activeBorder": "#8b5cf6",
     "list.highlightForeground": "#8b5cf6",
-    "list.focusHighlightForeground": "#f1f5f9"
+    "list.focusHighlightForeground": "#f1f5f9",
+    // Add Hover/Tooltip colors
+    "editorHoverWidget.background": "#1e293b",
+    "editorHoverWidget.border": "#3e4e6e",
+    "editorHoverWidget.foreground": "#e2e8f0",
+    "editorHoverWidget.highlightForeground": "#8b5cf6",
+    "editorHoverWidget.statusBarBackground": "#0f172a",
+    // Add Extension hover card colors
+    "extensionButton.prominentBackground": "#8b5cf6",
+    "extensionButton.prominentForeground": "#ffffff",
+    "extensionButton.prominentHoverBackground": "#7c3aed",
+    "extensionIcon.starForeground": "#f59e0b",
+    "extensionIcon.verifiedForeground": "#10b981",
+    "extensionBadge.remoteForeground": "#ffffff",
+    "extensionBadge.remoteBackground": "#8b5cf6",
+    // Add Widget colors
+    "widget.shadow": "#0f172a80",
+    "editorWidget.background": "#1e293b",
+    "editorWidget.border": "#3e4e6e",
+    "editorWidget.foreground": "#e2e8f0",
+    "editorWidget.resizeBorder": "#8b5cf6",
+    // Add Hover List colors
+    "list.hoverForeground": "#f1f5f9",
+    "list.activeSelectionForeground": "#f1f5f9",
+    "list.inactiveSelectionForeground": "#e2e8f0",
+    "list.inactiveSelectionBackground": "#1e293b",
+    "list.focusOutline": "#8b5cf6",
+    // Add Breadcrumb hover colors
+    "breadcrumb.focusForeground": "#f1f5f9",
+    "breadcrumb.activeSelectionForeground": "#8b5cf6",
+    "breadcrumbPicker.background": "#1e293b"
   },
   "semanticTokenColors": {
     "variable": "#4fc8e0",
