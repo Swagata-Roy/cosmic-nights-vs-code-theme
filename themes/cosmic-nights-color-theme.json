@@ -447,7 +447,7 @@
         "foreground": "#818cf8"
       }
     },
-    // C++ Control Keywordsvsce publish
+    // C++ Control Keywords
     {
       "name": "C++ Control Keywords",
       "scope": [
