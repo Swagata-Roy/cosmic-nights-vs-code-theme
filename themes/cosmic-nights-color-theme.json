@@ -400,7 +400,6 @@
         "foreground": "#4fc8e0"
       }
     },
-    // Consolidated C++ Rules
     {
       "name": "C++ Variables and Parameters",
       "scope": [
@@ -455,7 +454,7 @@
         "keyword.control.cpp"
       ],
       "settings": {
-        "foreground": "#c586c0" // Purple for control keywords
+        "foreground": "#c586c0"
       }
     },
     {
@@ -467,7 +466,7 @@
         "keyword.operator.modulo.cpp"
       ],
       "settings": {
-        "foreground": "#38bdf8" // Blue for arithmetic
+        "foreground": "#38bdf8"
       }
     },
     {
@@ -477,7 +476,7 @@
         "keyword.operator.relational.cpp"
       ],
       "settings": {
-        "foreground": "#f472b6" // Pink for comparison
+        "foreground": "#f472b6"
       }
     },
     {
@@ -486,7 +485,7 @@
         "keyword.operator.assignment.cpp"
       ],
       "settings": {
-        "foreground": "#0ea5e9" // Light blue for assignment
+        "foreground": "#0ea5e9"
       }
     },
     {
@@ -499,7 +498,7 @@
         "meta.loop.cpp variable"
       ],
       "settings": {
-        "foreground": "#4fc8e0" // Cyan for variables
+        "foreground": "#e2f4f8"
       }
     },
     {
@@ -510,7 +509,7 @@
         "meta.block.cpp punctuation.section.block"
       ],
       "settings": {
-        "foreground": "#94a3b8" // Gray for punctuation
+        "foreground": "#94a3b8"
       }
     },
     {
@@ -522,7 +521,7 @@
         "entity.name.function.iostream.cpp"
       ],
       "settings": {
-        "foreground": "#f472b6" // Pink for iostream
+        "foreground": "#f472b6"
       }
     },
     {
@@ -532,7 +531,7 @@
         "punctuation.accessor.cpp"
       ],
       "settings": {
-        "foreground": "#8b5cf6" // Purple for stream operators
+        "foreground": "#8b5cf6"
       }
     }
   ]
