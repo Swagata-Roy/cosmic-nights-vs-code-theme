@@ -54,7 +54,23 @@
     "dropdown.background": "#1e293b",
     "dropdown.border": "#3e4e6e",
     "dropdown.foreground": "#e2e8f0",
-    "dropdown.listBackground": "#1e293b"
+    "dropdown.listBackground": "#1e293b",
+    // Add Command Palette colors
+    "quickInput.background": "#1e293b",
+    "quickInput.foreground": "#e2e8f0",
+    "quickInputList.focusForeground": "#f1f5f9",
+    "quickInputList.focusIconForeground": "#8b5cf6",
+    "quickInputList.focusBackground": "#3e4e6e",
+    "pickerGroup.border": "#3e4e6e",
+    "pickerGroup.foreground": "#8b5cf6",
+    "commandCenter.foreground": "#94a3b8",
+    "commandCenter.background": "#1e293b",
+    "commandCenter.border": "#3e4e6e",
+    "commandCenter.activeBackground": "#3e4e6e",
+    "commandCenter.activeForeground": "#f1f5f9",
+    "commandCenter.activeBorder": "#8b5cf6",
+    "list.highlightForeground": "#8b5cf6",
+    "list.focusHighlightForeground": "#f1f5f9"
   },
   "semanticTokenColors": {
     "variable": "#4fc8e0",
@@ -431,7 +447,7 @@
         "foreground": "#818cf8"
       }
     },
-    // C++ Control Keywords
+    // C++ Control Keywordsvsce publish
     {
       "name": "C++ Control Keywords",
       "scope": [
