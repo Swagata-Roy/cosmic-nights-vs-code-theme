@@ -376,15 +376,6 @@
     },
     {
       "scope": [
-        "entity.name.namespace.cpp",
-        "storage.type.template.cpp"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
-      }
-    },
-    {
-      "scope": [
         "punctuation.definition.template-expression",
         "punctuation.section.embedded"
       ],
@@ -403,24 +394,6 @@
       }
     },
     {
-      "scope": [
-        "storage.type.namespace.cpp",
-        "keyword.control.namespace.cpp"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.namespace.cpp",
-        "entity.name.type.namespace.cpp"
-      ],
-      "settings": {
-        "foreground": "#4fc8e0"
-      }
-    },
-    {
       "name": "C++ Types and Standard Library",
       "scope": [
         "storage.type.primitive.cpp",
@@ -430,7 +403,8 @@
         "support.type.stdstring.cpp",
         "support.type.stl.cpp",
         "support.type.posix-reserved.cpp",
-        "entity.name.type.class.cpp"
+        "entity.name.type.class.cpp",
+        "entity.name.type.namespace.cpp"
       ],
       "settings": {
         "foreground": "#818cf8"
@@ -450,7 +424,7 @@
       }
     },
     {
-      "name": "C++ All Operators",
+      "name": "C++ All Operators and Punctuation",
       "scope": [
         "keyword.operator.arithmetic.cpp",
         "keyword.operator.comparison.cpp",
@@ -458,34 +432,26 @@
         "keyword.operator.increment.cpp",
         "keyword.operator.decrement.cpp",
         "keyword.operator.modulo.cpp",
-        "keyword.operator.stream.cpp"
+        "punctuation.separator.scope-resolution.cpp",
+        "punctuation.terminator.statement.cpp",
+        "punctuation.separator.delimiter.cpp",
+        "meta.block.cpp punctuation.section.block"
       ],
       "settings": {
         "foreground": "#38bdf8"
       }
     },
     {
-      "name": "C++ IO Stream Identifiers",
+      "name": "C++ Stream Objects and Operators",
       "scope": [
         "support.class.iostream.cpp",
         "support.constant.iostream.cpp",
-        "entity.name.type.namespace.std.cpp",
-        "support.type.iostream.cpp"
+        "support.type.iostream.cpp",
+        "keyword.operator.stream.cpp",
+        "entity.name.type.namespace.std.cpp"
       ],
       "settings": {
         "foreground": "#f472b6"
-      }
-    },
-    {
-      "name": "C++ Punctuation",
-      "scope": [
-        "punctuation.terminator.statement.cpp",
-        "punctuation.separator.delimiter.cpp",
-        "punctuation.separator.scope-resolution.cpp",
-        "meta.block.cpp punctuation.section.block"
-      ],
-      "settings": {
-        "foreground": "#94a3b8"
       }
     }
   ]
