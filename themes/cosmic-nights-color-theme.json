@@ -163,9 +163,10 @@
     },
     {
       "scope": [
-        "variable",
+        "variable.other.readwrite",
         "variable.other",
-        "variable.other.readwrite"
+        "variable.other.object",
+        "variable.other.property"
       ],
       "settings": {
         "foreground": "#4fc8e0"
@@ -326,17 +327,6 @@
     },
     {
       "scope": [
-        "entity.name.function.cpp",
-        "entity.name.type.class.cpp",
-        "storage.type.primitive.cpp",
-        "storage.type.built-in.primitive.cpp"
-      ],
-      "settings": {
-        "foreground": "#818cf8"
-      }
-    },
-    {
-      "scope": [
         "storage.type.rust",
         "entity.name.type.rust",
         "entity.name.type.struct.rust"
@@ -431,91 +421,59 @@
       }
     },
     {
-      "name": "C++ Variables and Parameters",
-      "scope": [
-        "variable.other.readwrite.cpp",
-        "variable.other.definition.cpp",
-        "variable.other.local.cpp",
-        "variable.parameter.cpp",
-        "variable.other.cpp"
-      ],
-      "settings": {
-        "foreground": "#92beff"
-      }
-    },
-    {
-      "name": "C++ IO Streams",
-      "scope": [
-        "support.class.iostream.cpp",
-        "variable.other.constant.cpp",
-        "support.constant.iostream.cpp"
-      ],
-      "settings": {
-        "foreground": "#f472b6"
-      }
-    },
-    {
-      "name": "C++ Stream Operators",
-      "scope": [
-        "keyword.operator.stream.cpp",
-        "punctuation.separator.delimiter.cpp"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
-      }
-    },
-    {
-      "name": "C++ Basic Types and Keywords",
+      "name": "C++ Types and Standard Library",
       "scope": [
         "storage.type.primitive.cpp",
         "storage.type.built-in.primitive.cpp",
         "storage.type.cpp",
-        "keyword.control.cpp"
+        "entity.name.type.cpp",
+        "support.type.stdstring.cpp",
+        "support.type.stl.cpp",
+        "support.type.posix-reserved.cpp",
+        "entity.name.type.class.cpp"
       ],
       "settings": {
         "foreground": "#818cf8"
       }
     },
     {
-      "name": "C++ Control Keywords",
+      "name": "C++ Control Flow and Keywords",
       "scope": [
         "keyword.control.flow.cpp",
         "keyword.control.loop.cpp",
-        "keyword.control.cpp"
+        "keyword.control.cpp",
+        "storage.type.namespace.cpp",
+        "keyword.control.namespace.cpp"
       ],
       "settings": {
         "foreground": "#c586c0"
       }
     },
     {
-      "name": "C++ Arithmetic Operators",
+      "name": "C++ All Operators",
       "scope": [
         "keyword.operator.arithmetic.cpp",
+        "keyword.operator.comparison.cpp",
+        "keyword.operator.assignment.cpp",
         "keyword.operator.increment.cpp",
         "keyword.operator.decrement.cpp",
-        "keyword.operator.modulo.cpp"
+        "keyword.operator.modulo.cpp",
+        "keyword.operator.stream.cpp"
       ],
       "settings": {
         "foreground": "#38bdf8"
       }
     },
     {
-      "name": "C++ Comparison Operators",
+      "name": "C++ IO Stream Identifiers",
       "scope": [
-        "keyword.operator.comparison.cpp",
-        "keyword.operator.relational.cpp"
+        "support.class.iostream.cpp",
+        "support.constant.iostream.cpp",
+        "entity.name.type.namespace.std.cpp",
+        "support.type.iostream.cpp"
       ],
       "settings": {
         "foreground": "#f472b6"
-      }
-    },
-    {
-      "name": "C++ Assignment Operators",
-      "scope": [
-        "keyword.operator.assignment.cpp"
-      ],
-      "settings": {
-        "foreground": "#0ea5e9"
       }
     },
     {
@@ -523,32 +481,11 @@
       "scope": [
         "punctuation.terminator.statement.cpp",
         "punctuation.separator.delimiter.cpp",
+        "punctuation.separator.scope-resolution.cpp",
         "meta.block.cpp punctuation.section.block"
       ],
       "settings": {
         "foreground": "#94a3b8"
-      }
-    },
-    {
-      "name": "C++ Standard IO",
-      "scope": [
-        "support.class.iostream.cpp",
-        "support.function.iostream.cpp",
-        "variable.other.constant.cpp",
-        "entity.name.function.iostream.cpp"
-      ],
-      "settings": {
-        "foreground": "#f472b6"
-      }
-    },
-    {
-      "name": "C++ Stream Operators",
-      "scope": [
-        "keyword.operator.stream.cpp",
-        "punctuation.accessor.cpp"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
       }
     }
   ]
