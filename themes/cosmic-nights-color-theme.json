@@ -447,7 +447,6 @@
         "foreground": "#818cf8"
       }
     },
-    // C++ Control Keywords
     {
       "name": "C++ Control Keywords",
       "scope": [
