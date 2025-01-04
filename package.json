@@ -2,7 +2,7 @@
   "name": "cosmic-nights",
   "displayName": "Cosmic Nights",
   "description": "A modern dark theme with cosmic vibes featuring dark blue, purple, emerald green, pink, and sky blue colors",
-  "version": "0.1.8",
+  "version": "0.2.0",
   "publisher": "Swagata-Roy",
   "engines": {
     "vscode": "^1.96.2"
@@ -11,13 +11,11 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [
-      {
-        "label": "Cosmic Nights",
-        "uiTheme": "vs-dark",
-        "path": "./themes/cosmic-nights-color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "Cosmic Nights",
+      "uiTheme": "vs-dark",
+      "path": "./themes/cosmic-nights-color-theme.json"
+    }]
   },
   "repository": {
     "type": "git",
