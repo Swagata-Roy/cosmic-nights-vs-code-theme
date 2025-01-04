@@ -23,7 +23,6 @@
     "button.background": "#8b5cf6",
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#7c3aed",
-    
     "editor.lineHighlightBackground": "#1e293b50",
     "editor.selectionBackground": "#3e4e6e",
     "editorCursor.foreground": "#8b5cf6",
@@ -33,7 +32,6 @@
     "list.activeSelectionBackground": "#3e4e6e",
     "scrollbarSlider.background": "#1e293b80",
     "scrollbarSlider.hoverBackground": "#3e4e6e80",
-    
     "editor.wordHighlightBackground": "#3e4e6e50",
     "editor.wordHighlightStrongBackground": "#3e4e6e80",
     "editorBracketMatch.background": "#3e4e6e50",
@@ -43,7 +41,20 @@
     "editorInfo.foreground": "#3b82f6",
     "terminal.foreground": "#e2e8f0",
     "terminal.background": "#0f172a",
-    "panel.background": "#1e293b"
+    "panel.background": "#1e293b",
+    // Add search bar colors
+    "input.background": "#1e293b",
+    "input.foreground": "#e2e8f0",
+    "input.border": "#3e4e6e",
+    "inputOption.activeBorder": "#8b5cf6",
+    "searchEditor.findMatchBackground": "#3e4e6e80",
+    "editor.findMatchBackground": "#3e4e6e80",
+    "editor.findMatchHighlightBackground": "#3e4e6e50",
+    // Add dropdown colors
+    "dropdown.background": "#1e293b",
+    "dropdown.border": "#3e4e6e",
+    "dropdown.foreground": "#e2e8f0",
+    "dropdown.listBackground": "#1e293b"
   },
   "semanticTokenColors": {
     "variable": "#4fc8e0",
@@ -54,85 +65,145 @@
   },
   "tokenColors": [
     {
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#64748b"
       }
     },
     {
-      "scope": ["string", "string.quoted"],
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
       "settings": {
         "foreground": "#10b981"
       }
     },
     {
-      "scope": ["constant.numeric", "constant.language", "constant.character", "constant.other", "keyword.other.unit"],
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other",
+        "keyword.other.unit"
+      ],
       "settings": {
         "foreground": "#f472b6"
       }
     },
     {
-      "scope": ["keyword", "storage.type", "storage.modifier", "entity.name.tag", "punctuation.definition.tag"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
       "settings": {
         "foreground": "#8b5cf6"
       }
     },
     {
-      "scope": ["entity.name.function", "support.function"],
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
       "settings": {
         "foreground": "#20b7f8"
       }
     },
     {
-      "scope": ["variable", "variable.other", "variable.other.readwrite"],
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.other.readwrite"
+      ],
       "settings": {
         "foreground": "#4fc8e0"
       }
     },
     {
-      "scope": ["meta.property-name", "meta.object.key", "entity.other.attribute-name", "support.type.property-name.css", "support.type.property-name.scss", "support.type.property-name.less"],
+      "scope": [
+        "meta.property-name",
+        "meta.object.key",
+        "entity.other.attribute-name",
+        "support.type.property-name.css",
+        "support.type.property-name.scss",
+        "support.type.property-name.less"
+      ],
       "settings": {
         "foreground": "#38bdf8"
       }
     },
     {
-      "scope": ["variable.other.object"],
+      "scope": [
+        "variable.other.object"
+      ],
       "settings": {
         "foreground": "#a093cf"
       }
     },
     {
-      "scope": ["variable.other.object.property"],
+      "scope": [
+        "variable.other.object.property"
+      ],
       "settings": {
         "foreground": "#f472b6"
       }
     },
     {
-      "scope": ["entity.name.type", "support.type"],
+      "scope": [
+        "entity.name.type",
+        "support.type"
+      ],
       "settings": {
         "foreground": "#818cf8"
       }
     },
     {
-      "scope": ["support.constant.property-value.css", "support.constant.color.w3c-standard-color-name.css", "constant.other.color.rgb-value.css", "support.constant.font-name.css", "support.constant.vendored.property-value.css"],
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.color.w3c-standard-color-name.css",
+        "constant.other.color.rgb-value.css",
+        "support.constant.font-name.css",
+        "support.constant.vendored.property-value.css"
+      ],
       "settings": {
         "foreground": "#10b981"
       }
     },
     {
-      "scope": ["meta.property-value.css", "support.type.vendored.property-name.css", "support.type.property-name.media.css"],
+      "scope": [
+        "meta.property-value.css",
+        "support.type.vendored.property-name.css",
+        "support.type.property-name.media.css"
+      ],
       "settings": {
         "foreground": "#a78bfa"
       }
     },
     {
-      "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css", "entity.other.attribute-name.pseudo-class.css", "entity.other.attribute-name.pseudo-element.css"],
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
       "settings": {
         "foreground": "#8fd6f5"
       }
     },
     {
-      "scope": ["meta.object-literal.key", "meta.object-literal.key.js", "meta.object-literal.key.ts", "meta.object-literal.key.tsx", "meta.object-literal.key.jsx"],
+      "scope": [
+        "meta.object-literal.key",
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx",
+        "meta.object-literal.key.jsx"
+      ],
       "settings": {
         "foreground": "#2383f8"
       }
@@ -220,16 +291,6 @@
     },
     {
       "scope": [
-        "storage.modifier.specifier.cpp",
-        "keyword.operator.cpp",
-        "keyword.operator.logical.cpp"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
-      }
-    },
-    {
-      "scope": [
         "storage.type.rust",
         "entity.name.type.rust",
         "entity.name.type.struct.rust"
@@ -303,6 +364,160 @@
       ],
       "settings": {
         "foreground": "#818cf8"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.namespace.cpp",
+        "keyword.control.namespace.cpp"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.namespace.cpp",
+        "entity.name.type.namespace.cpp"
+      ],
+      "settings": {
+        "foreground": "#4fc8e0"
+      }
+    },
+    // Consolidated C++ Rules
+    {
+      "name": "C++ Variables and Parameters",
+      "scope": [
+        "variable.other.readwrite.cpp",
+        "variable.other.definition.cpp",
+        "variable.other.local.cpp",
+        "variable.parameter.cpp",
+        "variable.other.cpp"
+      ],
+      "settings": {
+        "foreground": "#4fc8e0"
+      }
+    },
+    {
+      "name": "C++ IO Streams",
+      "scope": [
+        "support.class.iostream.cpp",
+        "variable.other.constant.cpp",
+        "support.constant.iostream.cpp"
+      ],
+      "settings": {
+        "foreground": "#f472b6"
+      }
+    },
+    {
+      "name": "C++ Stream Operators",
+      "scope": [
+        "keyword.operator.stream.cpp",
+        "punctuation.separator.delimiter.cpp"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "name": "C++ Basic Types and Keywords",
+      "scope": [
+        "storage.type.primitive.cpp",
+        "storage.type.built-in.primitive.cpp",
+        "storage.type.cpp",
+        "keyword.control.cpp"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    // C++ Control Keywords
+    {
+      "name": "C++ Control Keywords",
+      "scope": [
+        "keyword.control.flow.cpp",
+        "keyword.control.loop.cpp",
+        "keyword.control.cpp"
+      ],
+      "settings": {
+        "foreground": "#c586c0" // Purple for control keywords
+      }
+    },
+    {
+      "name": "C++ Arithmetic Operators",
+      "scope": [
+        "keyword.operator.arithmetic.cpp",
+        "keyword.operator.increment.cpp",
+        "keyword.operator.decrement.cpp",
+        "keyword.operator.modulo.cpp"
+      ],
+      "settings": {
+        "foreground": "#38bdf8" // Blue for arithmetic
+      }
+    },
+    {
+      "name": "C++ Comparison Operators",
+      "scope": [
+        "keyword.operator.comparison.cpp",
+        "keyword.operator.relational.cpp"
+      ],
+      "settings": {
+        "foreground": "#f472b6" // Pink for comparison
+      }
+    },
+    {
+      "name": "C++ Assignment Operators",
+      "scope": [
+        "keyword.operator.assignment.cpp"
+      ],
+      "settings": {
+        "foreground": "#0ea5e9" // Light blue for assignment
+      }
+    },
+    {
+      "name": "C++ Variables",
+      "scope": [
+        "variable.other.local.cpp",
+        "variable.other.readwrite.cpp",
+        "variable.other.cpp",
+        "variable.other.object.cpp",
+        "meta.loop.cpp variable"
+      ],
+      "settings": {
+        "foreground": "#4fc8e0" // Cyan for variables
+      }
+    },
+    {
+      "name": "C++ Punctuation",
+      "scope": [
+        "punctuation.terminator.statement.cpp",
+        "punctuation.separator.delimiter.cpp",
+        "meta.block.cpp punctuation.section.block"
+      ],
+      "settings": {
+        "foreground": "#94a3b8" // Gray for punctuation
+      }
+    },
+    {
+      "name": "C++ Standard IO",
+      "scope": [
+        "support.class.iostream.cpp",
+        "support.function.iostream.cpp",
+        "variable.other.constant.cpp",
+        "entity.name.function.iostream.cpp"
+      ],
+      "settings": {
+        "foreground": "#f472b6" // Pink for iostream
+      }
+    },
+    {
+      "name": "C++ Stream Operators",
+      "scope": [
+        "keyword.operator.stream.cpp",
+        "punctuation.accessor.cpp"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6" // Purple for stream operators
       }
     }
   ]
