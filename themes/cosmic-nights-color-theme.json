@@ -100,12 +100,106 @@
     // Add Breadcrumb hover colors
     "breadcrumb.focusForeground": "#f1f5f9",
     "breadcrumb.activeSelectionForeground": "#8b5cf6",
-    "breadcrumbPicker.background": "#1e293b"
+    "breadcrumbPicker.background": "#1e293b",
+    // Add panel borders
+    "panel.border": "#3e4e6e",
+    "panelTitle.activeBorder": "#8b5cf6",
+    "panelSection.border": "#3e4e6e",
+    // Add sidebar borders
+    "sideBar.border": "#3e4e6e",
+    "sideBarSectionHeader.border": "#3e4e6e",
+    // Add editor borders
+    "editor.foldBackground": "#3e4e6e40",
+    "editorGroup.border": "#3e4e6e",
+    "editorGroup.dropBackground": "#3e4e6e40",
+    // Add tab borders
+    "tab.border": "#1e293b",
+    "tab.activeBorder": "#8b5cf6",
+    "tab.activeBorderTop": "#8b5cf6",
+    "tab.lastPinnedBorder": "#3e4e6e",
+    // Add activity bar borders
+    "activityBar.border": "#3e4e6e",
+    "activityBar.activeBorder": "#8b5cf6",
+    // Add status bar borders
+    "statusBar.border": "#3e4e6e",
+    "statusBar.debuggingBorder": "#f59e0b",
+    "statusBar.noFolderBorder": "#3e4e6e",
+    // Add title bar border
+    "titleBar.border": "#3e4e6e",
+    // Add notifications border
+    "notificationCenter.border": "#3e4e6e",
+    "notifications.border": "#3e4e6e",
+    // Add peek view borders
+    "peekView.border": "#8b5cf6",
+    "peekViewEditor.matchHighlightBorder": "#8b5cf6",
+    // Split view border
+    "editorGroup.dropIntoPromptBorder": "#3e4e6e",
+    // Additional border definitions
+    "editor.selectionHighlightBorder": "#3e4e6e80",
+    "editor.wordHighlightBorder": "#3e4e6e80",
+    "editor.wordHighlightStrongBorder": "#8b5cf6",
+    "editor.findMatchBorder": "#8b5cf6",
+    "editor.findMatchHighlightBorder": "#3e4e6e80",
+    "editor.rangeHighlightBorder": "#3e4e6e80",
+    // List and tree borders
+    "tree.indentGuidesStroke": "#3e4e6e",
+    "list.filterMatchBorder": "#8b5cf6",
+    "list.activeSelectionIconForeground": "#f1f5f9",
+    // Additional widget borders
+    "editorSuggestWidget.border": "#3e4e6e",
+    "editorGhostText.border": "#3e4e6e80",
+    "editorOverviewRuler.border": "#3e4e6e",
+    // Scrollbar borders
+    "scrollbar.shadow": "#0f172a80",
+    // Additional panel borders
+    "panelTitle.activeForeground": "#f1f5f9",
+    "panelTitle.inactiveForeground": "#64748b",
+    "panelInput.border": "#3e4e6e",
+    // Additional sidebar borders
+    "sideBarSectionHeader.background": "#1e293b",
+    "sideBarSectionHeader.foreground": "#94a3b8",
+    // Additional notification borders
+    "notificationToast.border": "#3e4e6e",
+    "notificationsErrorIcon.foreground": "#ef4444",
+    "notificationsWarningIcon.foreground": "#f59e0b",
+    "notificationsInfoIcon.foreground": "#3b82f6",
+    // Debug borders
+    "debugToolBar.border": "#3e4e6e",
+    "debugExceptionWidget.border": "#ef4444",
+    // Diff editor borders
+    "diffEditor.border": "#3e4e6e",
+    "diffEditor.insertedTextBorder": "#10b981",
+    "diffEditor.removedTextBorder": "#ef4444",
+    // Additional input borders
+    "inputValidation.errorBorder": "#ef4444",
+    "inputValidation.infoBorder": "#3b82f6",
+    "inputValidation.warningBorder": "#f59e0b",
+    // Menu borders
+    "menu.border": "#3e4e6e",
+    "menubar.selectionBorder": "#3e4e6e",
+    // Settings borders
+    "settings.modifiedItemIndicator": "#8b5cf6",
+    "settings.dropdownListBorder": "#3e4e6e",
+    "settings.checkboxBorder": "#3e4e6e",
+    // Welcome page borders
+    "walkThrough.embeddedEditorBackground": "#0f172a",
+    // Chart colors
+    "charts.foreground": "#e2e8f0",
+    "charts.lines": "#3e4e6e",
+    // Symbol icon borders
+    "symbolIcon.arrayForeground": "#d593ed",
+    "symbolIcon.booleanForeground": "#d593ed",
+    "symbolIcon.classForeground": "#818cf8",
+    "symbolIcon.colorForeground": "#10b981",
+    "symbolIcon.constantForeground": "#d593ed",
+    "symbolIcon.enumeratorForeground": "#818cf8",
+    "symbolIcon.functionForeground": "#20b7f8",
+    "symbolIcon.variableForeground": "#b2d3ff"
   },
   "semanticTokenColors": {
-    "variable": "#4fc8e0",
-    "parameter": "#4fc8e0",
-    "property": "#f472b6",
+    "variable": "#b2d3ff",
+    "parameter": "#a08ef0",
+    "property": "#d593ed",
     "function": "#20b7f8",
     "type": "#818cf8"
   },
@@ -137,7 +231,7 @@
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#f472b6"
+        "foreground": "#d593ed"
       }
     },
     {
@@ -165,11 +259,10 @@
       "scope": [
         "variable.other.readwrite",
         "variable.other",
-        "variable.other.object",
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#4fc8e0"
+        "foreground": "#b2d3ff"
       }
     },
     {
@@ -191,14 +284,6 @@
       ],
       "settings": {
         "foreground": "#a093cf"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.object.property"
-      ],
-      "settings": {
-        "foreground": "#f472b6"
       }
     },
     {
@@ -253,55 +338,6 @@
       ],
       "settings": {
         "foreground": "#2383f8"
-      }
-    },
-    {
-      "scope": [
-        "storage.type.class.python",
-        "keyword.operator.logical.python",
-        "keyword.control.flow.python"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
-      }
-    },
-    {
-      "scope": [
-        "support.function.builtin.python",
-        "support.function.magic.python"
-      ],
-      "settings": {
-        "foreground": "#20b7f8"
-      }
-    },
-    {
-      "scope": [
-        "meta.function-call.python",
-        "meta.function.python"
-      ],
-      "settings": {
-        "foreground": "#4fc8e0"
-      }
-    },
-    {
-      "scope": [
-        "variable.parameter.function.python",
-        "variable.parameter.function.language.python",
-        "variable.parameter.function-call.python"
-      ],
-      "settings": {
-        "foreground": "#4fc8e0"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.python",
-        "variable.language.special.self.python",
-        "variable.parameter.definition.python",
-        "meta.generic-name.python"
-      ],
-      "settings": {
-        "foreground": "#4fc8e0"
       }
     },
     {
@@ -451,7 +487,107 @@
         "entity.name.type.namespace.std.cpp"
       ],
       "settings": {
-        "foreground": "#f472b6"
+        "foreground": "#d593ed"
+      }
+    },
+    {
+      "name": "Python Core",
+      "scope": [
+        "source.python",
+        "meta.function.python",
+        "meta.class.python"
+      ],
+      "settings": {
+        "foreground": "#b2d3ff"
+      }
+    },
+    {
+      "name": "Python Keywords and Control",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.import.python",
+        "keyword.operator.logical.python",
+        "keyword.other.python",
+        "storage.type.function.python",
+        "storage.type.class.python",
+        "storage.modifier.declaration.python"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6" // Purple for keywords
+      }
+    },
+    {
+      "name": "Python Function Definitions",
+      "scope": [
+        "entity.name.function.python",
+        "meta.function-call.generic.python"
+      ],
+      "settings": {
+        "foreground": "#20b7f8" // Bright blue for function definitions
+      }
+    },
+    {
+      "name": "Python Built-in Functions",
+      "scope": [
+        "support.function.builtin.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#d593ed" // Soft pink for built-ins
+      }
+    },
+    {
+      "name": "Python Variables",
+      "scope": [
+        "variable.other.python"
+      ],
+      "settings": {
+        "foreground": "#b2d3ff" // Light blue for variables
+      }
+    },
+    {
+      "name": "Python Function Parameters",
+      "scope": [
+        "meta.function.python"
+      ],
+      "settings": {
+        "foreground": "#a08ef0" //light violet for parameters
+      }
+    },
+    {
+      "name": "Python Types and Classes",
+      "scope": [
+        "support.type.python",
+        "entity.name.type.class.python",
+        "support.type.exception.python"
+      ],
+      "settings": {
+        "foreground": "#818cf8" // Light purple for types
+      }
+    },
+    {
+      "name": "Python Operators",
+      "scope": [
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.assignment.python",
+        "punctuation.separator.period.python"
+      ],
+      "settings": {
+        "foreground": "#38bdf8" // Sky blue for operators
+      }
+    },
+    {
+      "name": "Python Punctuation",
+      "scope": [
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.element.python",
+        "punctuation.separator.period.python"
+      ],
+      "settings": {
+        "foreground": "#94a3b8" // Subtle gray for punctuation
       }
     }
   ]
