@@ -266,6 +266,24 @@
       }
     },
     {
+      "name": "JavaScript Function Parameters",
+      "scope": [
+        "variable.parameter.js",
+        "variable.parameter.tsx",
+        "variable.parameter.ts",
+        "meta.parameters.js",
+        "meta.parameters.ts",
+        "meta.parameters.tsx",
+        "meta.parameters.jsx",
+        "meta.function.parameters.js",
+        "meta.function.parameters.ts",
+        "meta.function.parameters.tsx"
+      ],
+      "settings": {
+        "foreground": "#a08ef0"
+      }
+    },
+    {
       "scope": [
         "meta.property-name",
         "meta.object.key",
