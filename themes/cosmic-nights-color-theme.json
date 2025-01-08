@@ -293,7 +293,7 @@
         "support.type.property-name.less"
       ],
       "settings": {
-        "foreground": "#38bdf8"
+        "foreground": "#b2d3ff"
       }
     },
     {
@@ -343,7 +343,7 @@
         "entity.other.attribute-name.pseudo-element.css"
       ],
       "settings": {
-        "foreground": "#8fd6f5"
+        "foreground": "#38bdf8"
       }
     },
     {
