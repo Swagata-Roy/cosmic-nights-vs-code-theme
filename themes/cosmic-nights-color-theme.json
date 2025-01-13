@@ -645,7 +645,7 @@
         "variable.parameter.java"
       ],
       "settings": {
-        "foreground": "#a08ef0" // Light violet for parameters (consistent with Python)
+        "foreground": "#a08ef0" // Light violet for parameters
       }
     },
     {

@@ -2,7 +2,7 @@
   "name": "cosmic-nights",
   "displayName": "Cosmic Nights",
   "description": "A modern dark theme with cosmic vibes featuring dark blue, purple, emerald green, pink, and sky blue colors",
-  "version": "0.2.10",
+  "version": "0.2.18",
   "publisher": "Swagata-Roy",
   "engines": {
     "vscode": "^1.96.2"
