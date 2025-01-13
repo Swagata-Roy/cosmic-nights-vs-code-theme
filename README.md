@@ -10,12 +10,13 @@ JavaScript example screenshot:
 
 ![Cosmic Nights Theme](https://raw.githubusercontent.com/Swagata-Roy/cosmic-nights-vs-code-theme/main/images/js_example.png)
 
-## Features
+## Colors
 
-- Modern and clean design
-- Dark theme optimized for long coding sessions
-- Beautiful syntax highlighting
-- Carefully chosen color palette
+- Deep navy background
+- Purple accents
+- Sky blue functions
+- Emerald strings
+- Pink constants
 
 ## Installation
 
@@ -27,14 +28,6 @@ JavaScript example screenshot:
 6. Select "Cosmic Nights"
 
 Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Swagata-Roy.cosmic-nights).
-
-## Colors
-
-- Deep navy background
-- Purple accents
-- Sky blue functions
-- Emerald strings
-- Pink constants
 
 Enjoy coding in the cosmic night! 🌌
 

@@ -266,24 +266,6 @@
       }
     },
     {
-      "name": "JavaScript Function Parameters",
-      "scope": [
-        "variable.parameter.js",
-        "variable.parameter.tsx",
-        "variable.parameter.ts",
-        "meta.parameters.js",
-        "meta.parameters.ts",
-        "meta.parameters.tsx",
-        "meta.parameters.jsx",
-        "meta.function.parameters.js",
-        "meta.function.parameters.ts",
-        "meta.function.parameters.tsx"
-      ],
-      "settings": {
-        "foreground": "#a08ef0"
-      }
-    },
-    {
       "scope": [
         "meta.property-name",
         "meta.object.key",
@@ -346,6 +328,25 @@
         "foreground": "#38bdf8"
       }
     },
+    // JavaScript specific rules
+    {
+      "name": "JavaScript Function Parameters",
+      "scope": [
+        "variable.parameter.js",
+        "variable.parameter.tsx",
+        "variable.parameter.ts",
+        "meta.parameters.js",
+        "meta.parameters.ts",
+        "meta.parameters.tsx",
+        "meta.parameters.jsx",
+        "meta.function.parameters.js",
+        "meta.function.parameters.ts",
+        "meta.function.parameters.tsx"
+      ],
+      "settings": {
+        "foreground": "#a08ef0"
+      }
+    },
     {
       "scope": [
         "meta.object-literal.key",
@@ -358,6 +359,7 @@
         "foreground": "#2383f8"
       }
     },
+    // C# specific rules
     {
       "scope": [
         "entity.name.type.class.cs",
@@ -379,6 +381,7 @@
         "foreground": "#8b5cf6"
       }
     },
+    // Rust specific rules
     {
       "scope": [
         "storage.type.rust",
@@ -410,6 +413,26 @@
     },
     {
       "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading",
+        "markup.bold",
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#818cf8"
+      }
+    },
+    // C++ specific rules
+    {
+      "scope": [
         "entity.name.type.namespace.cpp",
         "entity.name.scope-resolution.cpp",
         "punctuation.separator.scope-resolution.cpp"
@@ -423,25 +446,6 @@
         "support.type.stdstring.cpp",
         "support.type.stl.cpp",
         "support.type.posix-reserved.cpp"
-      ],
-      "settings": {
-        "foreground": "#818cf8"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.template-expression",
-        "punctuation.section.embedded"
-      ],
-      "settings": {
-        "foreground": "#8b5cf6"
-      }
-    },
-    {
-      "scope": [
-        "markup.heading",
-        "markup.bold",
-        "markup.italic"
       ],
       "settings": {
         "foreground": "#818cf8"
@@ -508,6 +512,7 @@
         "foreground": "#d593ed"
       }
     },
+    // Python specific rules
     {
       "name": "Python Core",
       "scope": [
@@ -607,6 +612,61 @@
       "settings": {
         "foreground": "#94a3b8" // Subtle gray for punctuation
       }
-    }
+    },
+    // Java specific rules
+    {
+      "name": "Java Keywords and Storage",
+      "scope": [
+        "keyword.control.java",
+        "keyword.other.package.java",
+        "keyword.other.import.java",
+        "storage.modifier.java",
+        "storage.type.java",
+        "storage.type.generic.java"
+      ],
+      "settings": {
+        "foreground": "#8b5cf6" // Purple for keywords and modifiers
+      }
+    },
+    {
+      "name": "Java Imports and Packages",
+      "scope": [
+        "storage.modifier.package.java",
+        "storage.modifier.import.java",
+        "variable.language.wildcard.java"
+      ],
+      "settings": {
+        "foreground": "#b2d3ff" // Light blue for imports and packages
+      }
+    },
+    {
+      "name": "Java Parameters",
+      "scope": [
+        "variable.parameter.java"
+      ],
+      "settings": {
+        "foreground": "#a08ef0" // Light violet for parameters (consistent with Python)
+      }
+    },
+    {
+      "name": "Java Variables",
+      "scope": [
+        "variable.other.local.java",
+        "variable.other.definition.java"
+      ],
+      "settings": {
+        "foreground": "#b2d3ff" // Light blue for variables
+      }
+    },
+    {
+      "name": "Java Return Types",
+      "scope": [
+        "storage.type.primitive.java",
+        "storage.type.void.java"
+      ],
+      "settings": {
+        "foreground": "#d593ed" // Soft pink for constants
+      }
+    },
   ]
 }
