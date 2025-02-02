@@ -3,7 +3,7 @@
   "displayName": "Cosmic Nights",
   "description": "A modern dark theme with cosmic vibes featuring dark blue, purple, emerald green, pink, and sky blue colors",
   "version": "0.2.18",
-  "publisher": "Swagata-Roy",
+  "publisher": "SwagataRoy",
   "engines": {
     "vscode": "^1.96.2"
   },
@@ -22,7 +22,7 @@
     "url": "https://github.com/Swagata-Roy/cosmic-nights-vs-code-theme"
   },
   "keywords": ["theme", "dark theme", "cosmic", "purple", "blue", "green", "pink", "sky blue", "vibrant", "elegant", "beautiful"],
-  "author": "Swagata Roy",
+  "author": "Swagata-Roy",
   "license": "Apache-2.0",
   "icon": "images/icon.png",
   "galleryBanner": {
