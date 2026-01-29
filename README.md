@@ -27,7 +27,7 @@ JavaScript example screenshot:
 5. Press `Ctrl+K`, `Ctrl+T` (or `Cmd+K`, `Cmd+T` on macOS) to open the theme selector
 6. Select "Cosmic Nights"
 
-Alternatively, you can install it directly from the [VS Code Marketplace]([https://marketplace.visualstudio.com/items?itemName=Swagata-Roy.cosmic-nights](https://marketplace.visualstudio.com/items?itemName=SwagataRoy.cosmic-nights)).
+Alternatively, you can install it directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SwagataRoy.cosmic-nights).
 
 Enjoy coding in the cosmic night! 🌌
 
